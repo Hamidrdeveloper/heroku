@@ -8,7 +8,7 @@ import deezer
 with open('telebot_token.txt', 'r') as f:
     bot_token = f.read()
 
-bot = TeleBot(bot_token)
+bot = TeleBot("1773434651:AAHXCQLPsqEy3MH6-9C5jv6AegZP19ABAvY")
 
 ds = deezer_handler.Session()
 
